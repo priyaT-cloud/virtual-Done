@@ -1,0 +1,5 @@
+{
+  "name": "AI Virtual Dress-Up",
+  "description": "An interactive virtual try-on application. Upload a photo, choose an outfit from the library or upload your own, and see the realistic result. You can then download your new look.",
+  "requestFramePermissions": []
+}
