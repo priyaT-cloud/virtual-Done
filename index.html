@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF--8" />
+    <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Virtual Dress-Up</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -19,7 +19,7 @@
               'light-text': '#F3F4F6',
               'medium-text': '#9CA3AF',
             },
-            keyframes: {
+             keyframes: {
               fadeIn: {
                 '0%': { opacity: '0', transform: 'translateY(10px)' },
                 '100%': { opacity: '1', transform: 'translateY(0)' },
@@ -32,21 +32,11 @@
         },
       }
     </script>
-    <style>
-      /* Custom Scrollbar for a cleaner look */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #1F2937;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #4F46E5;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #6366F1;
-      }
+     <style>
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #1F2937; }
+      ::-webkit-scrollbar-thumb { background: #4F46E5; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #6366F1; }
     </style>
   <script type="importmap">
 {
@@ -54,7 +44,8 @@
     "react/": "https://aistudiocdn.com/react@^19.1.1/",
     "react": "https://aistudiocdn.com/react@^19.1.1",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "react-dropzone": "https://aistudiocdn.com/react-dropzone@^14.3.8"
   }
 }
 </script>

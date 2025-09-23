@@ -4,14 +4,7 @@ export interface ImageDetails {
   dataUrl: string;
 }
 
-export interface TryOnResult {
-  image: string | null;
-  text: string | null;
-}
-
-// Fix: Add the missing Outfit interface.
-export interface Outfit {
-  url: string;
-  description: string;
-  category: 'Top' | 'Bottom';
+export interface ChatMessage {
+  sender: 'user' | 'ai';
+  text: string;
 }
